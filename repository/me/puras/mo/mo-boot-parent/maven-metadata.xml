@@ -3,7 +3,7 @@
   <groupId>me.puras.mo</groupId>
   <artifactId>mo-boot-parent</artifactId>
   <versioning>
-    <release>0.7.2</release>
+    <release>0.7.3</release>
     <versions>
       <version>0.0.1</version>
       <version>0.1.0</version>
@@ -19,7 +19,9 @@
       <version>0.7.0</version>
       <version>0.7.1</version>
       <version>0.7.2</version>
+      <version>0.8.0</version>
+      <version>0.7.3</version>
     </versions>
-    <lastUpdated>20190128053151</lastUpdated>
+    <lastUpdated>20190210070148</lastUpdated>
   </versioning>
 </metadata>
