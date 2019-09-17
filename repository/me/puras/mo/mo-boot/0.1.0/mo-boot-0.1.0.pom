@@ -13,12 +13,19 @@
     <packaging>pom</packaging>
 
     <properties>
+        <mo.version>0.1.0</mo.version>
+
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>me.puras.mo.comm</groupId>
+            <artifactId>mo-common</artifactId>
+            <version>${mo.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
