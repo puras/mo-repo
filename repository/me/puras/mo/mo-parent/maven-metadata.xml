@@ -3,11 +3,12 @@
   <groupId>me.puras.mo</groupId>
   <artifactId>mo-parent</artifactId>
   <versioning>
-    <release>0.1.1</release>
+    <release>0.2.0</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
+      <version>0.2.0</version>
     </versions>
-    <lastUpdated>20190918142202</lastUpdated>
+    <lastUpdated>20191031083716</lastUpdated>
   </versioning>
 </metadata>
