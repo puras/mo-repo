@@ -8,7 +8,7 @@
     <artifactId>mo-parent</artifactId>
     <version>0.4.0</version>
     <modules>
-        <module>mo-comm</module>
+        <module>mo-common</module>
         <module>mo-biz</module>
         <module>mo-starter</module>
         <module>mo-server</module>
