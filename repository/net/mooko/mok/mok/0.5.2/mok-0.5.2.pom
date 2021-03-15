@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>net.mooko.mo.dep</groupId>
+        <artifactId>mo-boot-dep</artifactId>
+        <version>0.3.2</version>
+    </parent>
+    <groupId>net.mooko.mok</groupId>
+    <artifactId>mok</artifactId>
+    <version>0.5.2</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>mok-core</module>
+        <module>mok-task</module>
+        <module>mok-crud</module>
+        <module>mok-task-crud</module>
+        <module>mok-starter</module>
+        <module>examples</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.13</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+
+    <!--  公司  -->
+    <distributionManagement>
+        <repository>
+            <id>mo-releases</id>
+            <url>http://10.10.105.151/nexus/repository/mo-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>mo-snapshots</id>
+            <url>http://10.10.105.151/nexus/repository/mo-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <!--  家  -->
+    <!--     <distributionManagement> -->
+    <!--         <repository> -->
+    <!--             <id>mo-releases</id> -->
+    <!--             <url>http://10.211.55.8/nexus/repository/mo-releases/</url> -->
+    <!--         </repository> -->
+    <!--         <snapshotRepository> -->
+    <!--             <id>mo-snapshots</id> -->
+    <!--             <url>http://10.211.55.8/nexus/repository/mo-snapshots/</url> -->
+    <!--         </snapshotRepository> -->
+    <!--     </distributionManagement> -->
+</project>

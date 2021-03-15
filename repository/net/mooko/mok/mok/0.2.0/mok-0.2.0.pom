@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>net.mooko.mo.dep</groupId>
+        <artifactId>mo-boot-dep</artifactId>
+        <version>0.2.0</version>
+    </parent>
+    <groupId>net.mooko.mok</groupId>
+    <artifactId>mok</artifactId>
+    <version>0.2.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>mok-core</module>
+        <module>mok-task</module>
+        <module>mok-crud</module>
+        <module>mok-task-crud</module>
+        <module>mok-starter</module>
+        <module>examples</module>
+    </modules>
+</project>
