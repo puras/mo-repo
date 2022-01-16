@@ -4,19 +4,20 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.mooko.mo.dep</groupId>
     <artifactId>mo-boot-dep</artifactId>
-    <version>0.3.2</version>
+    <version>0.5.4</version>
     <packaging>pom</packaging>
 
     <properties>
-        <boot.version>2.4.4</boot.version>
-        <spring.version>5.3.5</spring.version>
-        <fastjson.version>1.2.75</fastjson.version>
-        <jackson-module-kotlin.version>2.12.2</jackson-module-kotlin.version>
-        <mybatis-spring.version>2.1.4</mybatis-spring.version>
-        <mysql.version>8.0.23</mysql.version>
+        <boot.version>2.6.1</boot.version>
+        <spring.version>5.3.14</spring.version>
+        <fastjson.version>1.2.78</fastjson.version>
+        <jackson-module-kotlin.version>2.12.3</jackson-module-kotlin.version>
+        <janino.version>3.1.6</janino.version>
+        <mybatis-spring.version>2.2.0</mybatis-spring.version>
+        <mysql.version>8.0.27</mysql.version>
 
         <java.version>1.8</java.version>
-        <kotlin.version>1.4.31</kotlin.version>
+        <kotlin.version>1.6.10</kotlin.version>
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -58,6 +59,12 @@
                 <groupId>com.fasterxml.jackson.module</groupId>
                 <artifactId>jackson-module-kotlin</artifactId>
                 <version>${jackson-module-kotlin.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.codehaus.janino/janino -->
+            <dependency>
+                <groupId>org.codehaus.janino</groupId>
+                <artifactId>janino</artifactId>
+                <version>${janino.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -148,7 +155,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.1</version>
+                <version>3.8.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
@@ -191,13 +198,23 @@
     <distributionManagement>
         <repository>
             <id>mo-releases</id>
-            <url>http://10.10.105.151/nexus/repository/mo-releases/</url>
+            <url>http://nexus.kugala.com/repository/mo-releases/</url>
         </repository>
         <snapshotRepository>
             <id>mo-snapshots</id>
-            <url>http://10.10.105.151/nexus/repository/mo-snapshots/</url>
+            <url>http://nexus.kugala.com/repository/mo-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>mo-releases</id>-->
+<!--            <url>http://10.10.105.151/nexus/repository/mo-releases/</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>mo-snapshots</id>-->
+<!--            <url>http://10.10.105.151/nexus/repository/mo-snapshots/</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
     <!--  家  -->
     <!--     <distributionManagement> -->
     <!--         <repository> -->

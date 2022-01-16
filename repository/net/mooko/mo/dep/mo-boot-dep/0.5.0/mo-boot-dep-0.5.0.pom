@@ -4,19 +4,19 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.mooko.mo.dep</groupId>
     <artifactId>mo-boot-dep</artifactId>
-    <version>0.3.2</version>
+    <version>0.5.0</version>
     <packaging>pom</packaging>
 
     <properties>
-        <boot.version>2.4.4</boot.version>
-        <spring.version>5.3.5</spring.version>
-        <fastjson.version>1.2.75</fastjson.version>
-        <jackson-module-kotlin.version>2.12.2</jackson-module-kotlin.version>
+        <boot.version>2.5.0</boot.version>
+        <spring.version>5.3.7</spring.version>
+        <fastjson.version>1.2.76</fastjson.version>
+        <jackson-module-kotlin.version>2.12.3</jackson-module-kotlin.version>
         <mybatis-spring.version>2.1.4</mybatis-spring.version>
-        <mysql.version>8.0.23</mysql.version>
+        <mysql.version>8.0.25</mysql.version>
 
         <java.version>1.8</java.version>
-        <kotlin.version>1.4.31</kotlin.version>
+        <kotlin.version>1.5.0</kotlin.version>
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -148,7 +148,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.1</version>
+                <version>3.8.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
@@ -191,13 +191,23 @@
     <distributionManagement>
         <repository>
             <id>mo-releases</id>
-            <url>http://10.10.105.151/nexus/repository/mo-releases/</url>
+            <url>http://nexus.kugala.com/repository/mo-releases/</url>
         </repository>
         <snapshotRepository>
             <id>mo-snapshots</id>
-            <url>http://10.10.105.151/nexus/repository/mo-snapshots/</url>
+            <url>http://nexus.kugala.com/repository/mo-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>mo-releases</id>-->
+<!--            <url>http://10.10.105.151/nexus/repository/mo-releases/</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>mo-snapshots</id>-->
+<!--            <url>http://10.10.105.151/nexus/repository/mo-snapshots/</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
     <!--  家  -->
     <!--     <distributionManagement> -->
     <!--         <repository> -->
