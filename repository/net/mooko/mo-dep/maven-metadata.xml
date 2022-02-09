@@ -3,10 +3,11 @@
   <groupId>net.mooko</groupId>
   <artifactId>mo-dep</artifactId>
   <versioning>
-    <release>0.1.0</release>
+    <release>0.1.0-next</release>
     <versions>
       <version>0.1.0</version>
+      <version>0.1.0-next</version>
     </versions>
-    <lastUpdated>20220116065308</lastUpdated>
+    <lastUpdated>20220209145433</lastUpdated>
   </versioning>
 </metadata>
