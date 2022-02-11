@@ -14,7 +14,7 @@
         <module>mok-starter-web-log</module>
         <module>mok-starter-trace-info</module>
         <module>mok-starter-rest-log</module>
-        <module>mok-starter-base-conf</module>
+        <module>mok-starter-conf-file</module>
     </modules>
 
     <artifactId>mok-starter</artifactId>
