@@ -8,11 +8,20 @@
         <version>0.2.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>mok-starter</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>mok-starter-ex-handler</module>
-        <module>mok-starter-log-handler</module>
+        <module>mok-starter-exception-handler</module>
+        <module>mok-starter-web-log</module>
+        <module>mok-starter-trace-info</module>
+        <module>mok-starter-rest-log</module>
+        <module>mok-starter-conf-file</module>
+        <module>mok-starter-redis</module>
     </modules>
 
+    <artifactId>mok-starter</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 </project>
