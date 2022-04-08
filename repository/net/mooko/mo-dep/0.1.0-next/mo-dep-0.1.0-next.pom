@@ -10,15 +10,15 @@
     <packaging>pom</packaging>
 
     <properties>
-        <spring.version>6.0.0-M2</spring.version>
-        <spring-boot.version>3.0.0-SNAPSHOT</spring-boot.version>
+        <spring.version>6.0.0-M3</spring.version>
+        <spring-boot.version>3.0.0-M2</spring-boot.version>
         <spring-cloud.version>2022.0.0-M1</spring-cloud.version>
-<!--        <alibaba-cloud.version>2021.1</alibaba-cloud.version>-->
+        <alibaba-cloud.version>2021.0.1.0</alibaba-cloud.version>
 
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 
         <java.version>17</java.version>
-        <kotlin.version>1.6.10</kotlin.version>
+        <kotlin.version>1.6.20</kotlin.version>
         <kotlin.compiler.jvmTarget>17</kotlin.compiler.jvmTarget>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>

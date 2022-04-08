@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mok</artifactId>
+        <groupId>net.mooko.mok</groupId>
+        <version>0.2.2-next</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>mok-starter-exception-handler</module>
+        <module>mok-starter-web-log</module>
+        <module>mok-starter-trace-info</module>
+        <module>mok-starter-rest-log</module>
+        <module>mok-starter-conf-file</module>
+        <module>mok-starter-redis</module>
+    </modules>
+
+    <artifactId>mok-starter</artifactId>
+</project>

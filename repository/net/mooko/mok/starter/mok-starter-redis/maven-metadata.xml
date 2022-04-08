@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.mooko.mok.starter</groupId>
+  <artifactId>mok-starter-redis</artifactId>
+  <versioning>
+    <release>0.2.2</release>
+    <versions>
+      <version>0.2.2</version>
+      <version>0.2.2-next</version>
+    </versions>
+    <lastUpdated>20220408154857</lastUpdated>
+  </versioning>
+</metadata>
