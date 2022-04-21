@@ -3,12 +3,12 @@
   <groupId>net.mooko.mok.starter</groupId>
   <artifactId>mok-starter-rest-log</artifactId>
   <versioning>
-    <release>0.2.2</release>
+    <release>0.2.2-next</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.2</version>
       <version>0.2.2-next</version>
     </versions>
-    <lastUpdated>20220408154857</lastUpdated>
+    <lastUpdated>20220421034213</lastUpdated>
   </versioning>
 </metadata>
